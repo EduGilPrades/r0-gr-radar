@@ -1,5 +1,5 @@
 export enum Protocol {
-  CLOSEST_ENEMIES = "closes-enemies",
+  CLOSEST_ENEMIES = "closest-enemies",
   FURTHEST_ENEMIES = "furthest-enemies",
   ASSIST_ALLIES = "assist-allies",
   AVOID_CROSSFIRE = "avoid-crossfire",
