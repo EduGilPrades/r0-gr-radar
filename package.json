@@ -4,8 +4,8 @@
   "description": "Módulo de selección de objetivos avanzado para el droide de combate R0-GR",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf ./dist && tsc",
-    "clean": "rimraf ./dist",
+    "build": "tsc",
+    "clean": "rm -rf ./dist",
     "dev": "ts-node ./src/index.ts",
     "node-dev": "ts-node-dev ./src/index.ts -e ts",
     "start": "npm run build && node dist/src/index.js",
