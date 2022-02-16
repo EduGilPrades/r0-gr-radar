@@ -1,7 +1,4 @@
-import { Coordinates } from "../../src/core/domain/types/Coordinates";
 import { EnemiesType } from "../../src/core/domain/types/EnemiesType";
-import { Protocol } from "../../src/core/domain/types/Protocol";
-import { RadarInfo } from "../../src/core/domain/types/RadarInfo";
 import { Scan } from "../../src/core/domain/types/Scan";
 
 export class FakeData {

@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { PrioritizeMechProtocol } from "../../../src/service/protocols/PrioritizeMechProtocol";
+import { PrioritizeMechProtocol } from "../../../src/services/protocols/PrioritizeMechProtocol";
 import { FakeData } from "../../testHelpers/FakeScans";
 
 describe("AvoidMechProtocol", () => {

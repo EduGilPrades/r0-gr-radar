@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { AvoidCrossFireProtocol } from "../../../src/service/protocols/AvoidCrossFireProtocol";
+import { AvoidCrossFireProtocol } from "../../../src/services/protocols/AvoidCrossFireProtocol";
 import { FakeData } from "../../testHelpers/FakeScans";
 
 describe("AvoidCrossFireProtocol", () => {

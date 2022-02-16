@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { FurthestEnemiesProtocol } from "../../../src/service/protocols/FurthestEnemiesProtocol";
+import { FurthestEnemiesProtocol } from "../../../src/services/protocols/FurthestEnemiesProtocol";
 import { FakeData } from "../../testHelpers/FakeScans";
 
 describe("FurthestEnemiesProtocol", () => {
