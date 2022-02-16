@@ -20,6 +20,8 @@ export class ChooseTargetUsecase {
         ? filterRadarInfo.filterMech(protocol)
         : filterRadarInfo.orderByDistance(protocol);
     });
-    return filterRadarInfo.getFilteredScans()[0].coordinates;
+    const filteredScans = filterRadarInfo.getFilteredScans();
+    const bestTarget = filteredScans[0];
+    return bestTarget.coordinates;
   }
 }
