@@ -1,6 +1,6 @@
 import { expect } from "chai";
 import { AssistAlliesProtocol } from "../../../src/service/protocols/AssitsAlliesProtocol";
-import { FakeData } from "../helpers/FakeScans";
+import { FakeData } from "../../testHelpers/FakeScans";
 
 describe("AssistsAlliesProtocol", () => {
   let sut: AssistAlliesProtocol;

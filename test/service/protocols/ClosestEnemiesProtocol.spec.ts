@@ -1,6 +1,6 @@
 import { expect } from "chai";
 import { ClosestEnemiesProtocol } from "../../../src/service/protocols/ClosestEnemiesProtocol";
-import { FakeData } from "../helpers/FakeScans";
+import { FakeData } from "../../testHelpers/FakeScans";
 
 describe("ClosestEnemiesProtocol", () => {
   let sut: ClosestEnemiesProtocol;

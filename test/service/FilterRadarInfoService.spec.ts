@@ -2,7 +2,7 @@ import { expect } from "chai";
 import { Protocol } from "../../src/core/domain/types/Protocol";
 import { Scan } from "../../src/core/domain/types/Scan";
 import { FilterRadarInfoService } from "../../src/service/FilterRadarInfoService";
-import { FakeData } from "./helpers/FakeScans";
+import { FakeData } from "../testHelpers/FakeScans";
 
 describe("FilterRadarInfoService", () => {
   let scans: Scan[];

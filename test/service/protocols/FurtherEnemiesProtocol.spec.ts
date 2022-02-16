@@ -1,6 +1,6 @@
 import { expect } from "chai";
 import { FurthestEnemiesProtocol } from "../../../src/service/protocols/FurthestEnemiesProtocol";
-import { FakeData } from "../helpers/FakeScans";
+import { FakeData } from "../../testHelpers/FakeScans";
 
 describe("FurthestEnemiesProtocol", () => {
   let sut: FurthestEnemiesProtocol;

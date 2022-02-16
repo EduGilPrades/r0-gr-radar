@@ -1,6 +1,6 @@
 import { expect } from "chai";
 import { AvoidCrossFireProtocol } from "../../../src/service/protocols/AvoidCrossFireProtocol";
-import { FakeData } from "../helpers/FakeScans";
+import { FakeData } from "../../testHelpers/FakeScans";
 
 describe("AvoidCrossFireProtocol", () => {
   let sut: AvoidCrossFireProtocol;

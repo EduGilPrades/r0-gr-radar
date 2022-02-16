@@ -1,6 +1,6 @@
 import { expect } from "chai";
 import { AvoidMechProtocol } from "../../../src/service/protocols/AvoidMechProtocol";
-import { FakeData } from "../helpers/FakeScans";
+import { FakeData } from "../../testHelpers/FakeScans";
 
 describe("AvoidMechProtocol", () => {
   let sut: AvoidMechProtocol;

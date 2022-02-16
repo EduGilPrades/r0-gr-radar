@@ -1,5 +1,5 @@
-import { EnemiesType } from "../../../src/core/domain/types/EnemiesType";
-import { Scan } from "../../../src/core/domain/types/Scan";
+import { EnemiesType } from "../../src/core/domain/types/EnemiesType";
+import { Scan } from "../../src/core/domain/types/Scan";
 
 export class FakeData {
   public static scans: Scan[] = [
