@@ -44,7 +44,6 @@ export class FilterRadarInfoService {
           ? this.scans
           : protocolAction.apply(this.scans);
     });
-    console.log(this.scans);
     return this.scans[0];
   }
 }

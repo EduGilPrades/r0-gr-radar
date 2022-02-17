@@ -9,7 +9,7 @@ export class RadarController {
     try {
       const radarInfo: RadarInfo = req.body;
       const target = this.chooseTargetUsecase.execute(radarInfo);
-      return res.status(200).json({ target });
+      return res.status(200).json(target);
     } catch (error) {
       return res.status(400).json({ error });
     }

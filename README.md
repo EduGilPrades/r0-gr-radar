@@ -14,6 +14,8 @@ Para ejecutar el nuevo sistema, una vez clonado del repositorio
 https://github.com/EduGilPrades/r0-gr-radar
 basta con ejecutar `npm install` para instalar las dependencias y a continuación `npm start` o `npm node-dev` para correrlo en modo de desarrollo.
 
+También se puede probar en línea sobre un despliegue en Heroku, realizando una petición **POST** en la dirección: https://choose-target-r0-gr.herokuapp.com/radar
+
 Estoy convencido que con este nuevo sistema de selección de objetivos, nuestro droide R0-GR está preparado para ganar la batalla.
 
 Espero vuestro feedback para saber como ha ido la guerra.

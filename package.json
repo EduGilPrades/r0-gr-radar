@@ -8,7 +8,7 @@
     "clean": "rm -rf ./dist",
     "dev": "ts-node ./src/index.ts",
     "node-dev": "ts-node-dev ./src/index.ts -e ts",
-    "start": "npm run build && node dist/src/index.js",
+    "start": "node dist/src/index.js",
     "test": "mocha --require ts-node/register --watch-extensions ts 'test/**/*.spec.ts' --timeout 5000"
   },
   "keywords": [],
